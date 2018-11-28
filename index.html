@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <!-- Bootstrap link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+   
+    <style>
+        .btn{
+            margin: 10px;
+            width: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Trivia Game</h1>
+        <p class="lead">You will be answering random trivia questions, don't take too long! You will only have 7
+            seconds to answer each question!
+        </p>
+        <hr class="my-4">
+        <p>Press start when you are ready!
+        </p>
+
+    </div>
+    <!-- <div id="buttons">
+        <button id="start">
+            <h2 id="start-button">Start</h2>
+        </button>
+    </div> -->
+    <div id="display-time"></div>
+    <div class="card" style="width: 18rem;">
+     
+        <div class="card-body">
+          <h5 id = "start-button" class="card-title"></h5>
+          <p id="score" class="card-text"></p>
+          <a id="start" class="btn btn-secondary">Start</a>
+        </div>
+      </div>
+    <div id="question-holder"></div> <br>
+    <button type="button" class="btn btn-secondary" id="answ1"></button> <br>
+    <button type="button" class="btn btn-secondary" id="answ2"></button> <br>
+    <button type="button" class="btn btn-secondary" id="answ3"></button> <br>
+  
+
+    <!-- <input type="radio" id="answ1"> <br> -->
+    <!-- <input type="radio" id="answ2"> <br>
+    <input type="radio" id="answ3"> <br> -->
+    <!-- <input type="submit" id="submit" value="Submit"> -->
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>
